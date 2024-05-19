@@ -1,0 +1,25 @@
+@import "./normalize";
+@import "./var";
+@import "./sprite";
+@import "./mixins/relative";
+@import "./mixins/media_mixin";
+@import "./mixins/z-index";
+@import "./page/header";
+@import "./page/navbar";
+@import "./page/content";
+@import "./page/footer";
+body {
+padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@import "fonts";

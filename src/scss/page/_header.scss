@@ -1,0 +1,107 @@
+section.header {
+  @include relative;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  flex-direction: column;
+  padding: 10px 0px 20px;
+}
+.header__logo_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__logo_title {
+  font-size: 20px;
+  display: block;
+  padding-bottom: 10px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: $bleck;
+}
+.header__logo_text {
+  font-size: 20px;
+  display: block;
+  padding-bottom: 5px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: $Shaft;
+}
+.header__phone {
+  flex-direction: column;
+  @include relative;
+  max-width: 300px;
+  padding-left: 40px;
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 34px;
+    height: 34px;
+    @extend %svg-common;
+    background-position: 100% 100%;
+  }
+}
+a.header__phone_link {
+  text-align: left;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
+  color: $bleck;
+  display: block;
+  text-decoration: none;
+}
+.header__phone_descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1;
+  color: $Boulder !important;
+}
+.header__btn {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+button.header__btn_button {
+  background: $Chateau !important;
+  border-radius: 43px !important;
+  color: $white !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px !important;
+  width: 200px;
+  height: 51px;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px !important;
+  text-transform: uppercase;
+  border: none;
+}
+a.header__btn_email {
+  line-height: 1.6em;
+  font-weight: 300;
+  text-align: center !important;
+  box-sizing: border-box;
+  background: transparent;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  color: #343434 !important;
+}

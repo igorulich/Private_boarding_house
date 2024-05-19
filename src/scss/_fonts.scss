@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  src: local('Roboto'), local('Roboto'),
+    url('../fonts/Roboto.woff2') format('woff2'),
+    url('../fonts/Roboto.woff') format('woff')
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  src: local('OpenSans'), local('OpenSans'),
+    url('../fonts/OpenSans.woff2') format('woff2'),
+    url('../fonts/OpenSans.woff') format('woff')
+}

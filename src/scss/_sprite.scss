@@ -1,0 +1,94 @@
+%svg-common {
+    background: url("sprite.svg") no-repeat;
+}
+
+.Comfortableliving {
+    @extend %svg-common;
+    background-position: 0 0;
+}
+
+.Comfortableliving-dims {
+    width: 60px;
+    height: 58px;
+}
+
+.Dailywalks {
+    @extend %svg-common;
+    background-position: 13.215859030837004% 13.03370786516854%;
+}
+
+.Dailywalks-dims {
+    width: 52px;
+    height: 60px;
+}
+
+.Freewife {
+    @extend %svg-common;
+    background-position: 25.112107623318387% 26.048565121412803%;
+}
+
+.Freewife-dims {
+    width: 60px;
+    height: 52px;
+}
+
+.Nohiddenfees {
+    @extend %svg-common;
+    background-position: 38.56502242152467% 38.20224719101124%;
+}
+
+.Nohiddenfees-dims {
+    width: 60px;
+    height: 60px;
+}
+
+.Organized {
+    @extend %svg-common;
+    background-position: 52.01793721973094% 51.68539325842696%;
+}
+
+.Organized-dims {
+    width: 60px;
+    height: 60px;
+}
+
+.animator {
+    @extend %svg-common;
+    background-position: 63.89496717724289% 65.61085972850678%;
+}
+
+.animator-dims {
+    width: 49px;
+    height: 63px;
+}
+
+.excursions {
+    @extend %svg-common;
+    background-position: 78.03203661327231% 79.32584269662921%;
+}
+
+.excursions-dims {
+    width: 69px;
+    height: 60px;
+}
+
+.guests {
+    @extend %svg-common;
+    background-position: 92.34234234234235% 92.3937360178971%;
+}
+
+.guests-dims {
+    width: 62px;
+    height: 58px;
+}
+
+.phone {
+    @extend %svg-common;
+    background-position: 100% 100%;
+}
+
+.phone-dims {
+    width: 34px;
+    height: 34px;
+}
+

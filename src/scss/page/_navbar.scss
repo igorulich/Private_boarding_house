@@ -55,6 +55,11 @@ ul.navbar-content {
 li.nav-item {
   @include relative;
   padding: 5px 10px;
+  border-top: solid 3px transparent;
+  transition: all 0.6s linear;
+  &:hover{
+    border-top: solid 3px $Chateau;
+  }
 }
 #dropdownMenuButton1 {
   margin: 0;
@@ -71,4 +76,13 @@ font-size: calc(12px + 8 * (100vw / 1920));
   font-weight: 500;
   text-transform: uppercase;
   color: $white;
+}
+li>a.dropdown-item{
+  background-color: $white;
+  color:$Shaft;
+  transition:color all 0.6s linear;
+&:hover{
+background-color:$Chateau ;
+color:$white;
+}
 }

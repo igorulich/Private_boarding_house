@@ -1,5 +1,74 @@
-section.navbar-content{
+section.header-navbar-content {
   @include relative;
   width: 100%;
+  background: $Navy;
 }
 
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+button.navbar-toggler {
+  position: relative;
+  top: -6px;
+  left: 0;
+  padding: 4px;
+}
+
+span.navbar-toggler-icon {
+  @include relative;
+  height: 2px;
+  width: 1.5em;
+  background-color: $white;
+  &:after {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 1.5em;
+    background-color: $white;
+    cursor: pointer;
+  }
+  &::before {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 1.5em;
+    background-color: $white;
+  }
+}
+ul.navbar-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+li.nav-item {
+  @include relative;
+  padding: 5px 10px;
+}
+#dropdownMenuButton1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+a.nav-link {
+  border-top: 3px solid transparent;
+  margin-right: 0;
+font-size: calc(12px + 8 * (100vw / 1920));
+  font-weight: 500;
+  text-transform: uppercase;
+  color: $white;
+}

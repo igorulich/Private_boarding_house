@@ -21,7 +21,7 @@ section.header {
 }
 
 .header__logo_title {
-  font-size: 20px;
+  font-size: calc(12px + 8 * (100vw / 1920));
   display: block;
   padding-bottom: 10px;
   font-family: "Roboto";
@@ -29,7 +29,7 @@ section.header {
   color: $bleck;
 }
 .header__logo_text {
-  font-size: 20px;
+  font-size: calc(12px + 8 * (100vw / 1920));
   display: block;
   padding-bottom: 5px;
   font-family: "Roboto";
@@ -55,20 +55,21 @@ section.header {
 }
 a.header__phone_link {
   text-align: left;
-  font-size: 20px;
+  font-size: calc(12px + 8 * (100vw / 1920));
   line-height: 32px;
   font-weight: bold;
   color: $bleck;
   display: block;
   text-decoration: none;
+  white-space: nowrap;
 }
 .header__phone_descr {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: calc(9px + 8 * (100vw / 1920));
   line-height: 1;
-  color: $Boulder !important;
+  color: $Boulder;
 }
 .header__btn {
   flex-direction: column;
@@ -77,31 +78,32 @@ a.header__phone_link {
   text-align: center;
 }
 button.header__btn_button {
-  background: $Chateau !important;
-  border-radius: 43px !important;
-  color: $white !important;
+  background: $Chateau;
+  border-radius: 43px;
+  color: $white;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
-  font-size: 14px !important;
-  width: 200px;
-  height: 51px;
-  padding: 0 !important;
+  font-size: calc(10px + 8 * (100vw / 1920));
+  max-width: 200px;
+  padding: 7px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px !important;
+  margin-top: 10px;
   text-transform: uppercase;
   border: none;
+  white-space: nowrap;
 }
 a.header__btn_email {
+  font-size: calc(12px + 8 * (100vw / 1920));
   line-height: 1.6em;
   font-weight: 300;
-  text-align: center !important;
+  text-align: center;
   box-sizing: border-box;
   background: transparent;
   background-color: transparent;
   text-decoration: none;
   cursor: pointer;
-  color: #343434 !important;
+  color: #343434;
 }
